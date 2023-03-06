@@ -2419,7 +2419,7 @@ name = "multi_filter"
 version = "0.1.0"
 dependencies = [
  "nih_plug",
- "yanel_dsp",
+ "yanel_dsp 0.1.0 (git+https://github.com/backtail/yanel_dsp?rev=7f1ef26)",
 ]
 
 [[package]]
@@ -3683,6 +3683,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "simple_delay"
+version = "0.1.0"
+dependencies = [
+ "nih_plug",
+ "yanel_dsp 0.1.0 (git+https://github.com/backtail/yanel_dsp?rev=52d9cf9)",
+]
+
+[[package]]
 name = "sine"
 version = "0.1.0"
 dependencies = [
@@ -4851,6 +4859,14 @@ name = "xtask"
 version = "0.1.0"
 dependencies = [
  "nih_plug_xtask",
+]
+
+[[package]]
+name = "yanel_dsp"
+version = "0.1.0"
+source = "git+https://github.com/backtail/yanel_dsp?rev=52d9cf9#52d9cf94d3d8574a569489eb64f241ef3515f4e9"
+dependencies = [
+ "embedded-audio-tools",
 ]
 
 [[package]]

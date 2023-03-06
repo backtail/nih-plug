@@ -30,3 +30,6 @@ name = "Spectral Compressor"
 
 [multi_filter]
 name = "Multi Filter"
+
+[simple_delay]
+name = "Simple Delay"

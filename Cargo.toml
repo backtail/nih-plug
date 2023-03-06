@@ -41,6 +41,7 @@ members = [
   "plugins/spectral_compressor",
 
   "plugins/multi_filter",
+  "plugins/simple_delay",
 ]
 
 [features]
