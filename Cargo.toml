@@ -39,6 +39,8 @@ members = [
   "plugins/puberty_simulator",
   "plugins/safety_limiter",
   "plugins/spectral_compressor",
+
+  "plugins/multi_filter",
 ]
 
 [features]

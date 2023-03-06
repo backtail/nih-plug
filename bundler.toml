@@ -27,3 +27,6 @@ name = "Safety Limiter"
 
 [spectral_compressor]
 name = "Spectral Compressor"
+
+[multi_filter]
+name = "Multi Filter"
